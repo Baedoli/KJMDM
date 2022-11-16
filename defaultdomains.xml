@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+<domains>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="LOGIN_ID" id="906F6D83-538B-C0A7-BD51-F2C60ECDDF45">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-11 07:31:12 UTC</createdTime>
+<comment><![CDATA[등록자_ID]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>20</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="LOGIN_COMPANYCD" id="91F7A7AC-7BCA-592D-47EA-5948E5C1980E">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-11 07:33:10 UTC</createdTime>
+<comment><![CDATA[등록사업장]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<dataTypeSize>2</dataTypeSize>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT024</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-11 01:48:27 UTC</createdTime>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT017</logicalDatatype>
+</Domain>
+<Domain class="oracle.dbtools.crest.model.design.Domain" name="LOGIN_YMD" id="F65A08B4-ADCF-5CD3-552B-6DABEF4EB307">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-11 07:31:45 UTC</createdTime>
+<comment><![CDATA[등록일시]]></comment>
+<ownerDesignName>System</ownerDesignName>
+<avTSortOrder>0</avTSortOrder>
+<fileName>defaultdomains</fileName>
+<logicalDatatype>LOGDT008</logicalDatatype>
+</Domain>
+</domains>
+</DomainFile>

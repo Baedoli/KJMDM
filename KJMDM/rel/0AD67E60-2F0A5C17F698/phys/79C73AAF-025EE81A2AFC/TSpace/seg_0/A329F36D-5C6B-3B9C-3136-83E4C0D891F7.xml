@@ -1,0 +1,11 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableSpaceOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TableSpaceOraclev10g" name="PREMIER_DAT" directorySegmentName="seg_0" id="A329F36D-5C6B-3B9C-3136-83E4C0D891F7">
+<sourceConnName>KJ</sourceConnName>
+<sourceObjSchema>MDM</sourceObjSchema>
+<sourceObjName>PREMIER_DAT</sourceObjName>
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:12 UTC</createdTime>
+<ownerDesignName>KJMDM</ownerDesignName>
+<emUniformSize>0</emUniformSize>
+<extentManagement>LOCAL</extentManagement>
+</TableSpaceOraclev10g>

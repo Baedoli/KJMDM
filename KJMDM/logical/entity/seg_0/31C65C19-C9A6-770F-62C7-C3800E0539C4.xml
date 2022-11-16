@@ -1,0 +1,676 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31C65C19-C9A6-770F-62C7-C3800E0539C4" name="MDM0100">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>332CE624-4952-0355-631D-99B8C0AE594A</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="SEQ" id="D7D44B75-55A5-9F5D-BF02-C1E878787F27">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>8797EA9B-5694-F3D0-6F1D-F32D5B44C1AC</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="COMPANYCD" id="7EE450E5-81E1-8A6D-E3AB-FC3D71140B5B">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[사업장]]></commentInRDBMS>
+<generatorID>54366A72-8EEC-F6C3-A087-FE6EFD49592E</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARTNO" id="8A4396C3-719D-D956-0AF6-07A82E1842AE">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[품번]]></commentInRDBMS>
+<generatorID>80FA2D55-4823-C51D-C29D-4219E97980C6</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PARTNM" id="12103654-EB19-41BE-0E55-E97650DCB4F8">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[품명]]></commentInRDBMS>
+<generatorID>1D877CDA-C446-5C28-79EF-74674AD8EF4E</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESIGNNO" id="3CC4059A-82C5-7AD3-CCBE-5A963B289F13">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[도면번호]]></commentInRDBMS>
+<generatorID>D8C5F933-CD90-88F4-1E50-BC96138AC79D</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KINDCD" id="FD1015B3-E166-2541-1FED-C675AC7A7942">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[차종]]></commentInRDBMS>
+<generatorID>15AE9B05-E6EE-8784-0B9F-4B17CB650266</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ITEM TYPE" id="FE6C7600-BCCC-E145-82B3-3D3653BF583E">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[품목유형(1:상품,2:제품,4:반제품,6:원자재,7:부자재,8:소모품등)]]></commentInRDBMS>
+<generatorID>C949994B-3FE6-BFBC-4AA7-7A59DE70A782</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 BYTE</dataTypeSize>
+<ownDataTypeParameters>2 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST PARTNO" id="FCD74789-3F21-07D2-255C-E4A4CCD465CE">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[고객품번]]></commentInRDBMS>
+<generatorID>19BCB122-D30D-A53B-B5CF-FC1F0E466F21</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CUST PARTNM" id="6F95708B-7B41-71E7-A764-7BAD74C31C87">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[고객품명]]></commentInRDBMS>
+<generatorID>52C07C98-BEA5-261B-C6F9-6E456BEEAD59</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ITEM CLASS" id="BC681288-D9AA-FDF6-7EB0-D9E3705F9E64">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[품목분류(레귤레이터, 모듀르 코일 등)]]></commentInRDBMS>
+<generatorID>04764DCD-2207-C18F-5340-22F787A87E1D</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SPEC" id="5E029702-DEF3-0865-6126-3181D5C9CF99">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[사양]]></commentInRDBMS>
+<generatorID>7706A1DB-5AA7-C16B-CEF9-0247861B83C5</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MATERIAL" id="A69E7B2D-989B-F90D-952C-476853C093D7">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[재질]]></commentInRDBMS>
+<generatorID>5F49528E-DEB4-D5A6-6267-7E8F7BDA2D60</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="THICK" id="A53C5D64-5005-78EE-5D3D-4B658E1D0651">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[두께]]></commentInRDBMS>
+<generatorID>380B855F-7055-4C56-D4EB-080E17C58C7B</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="JWAREGB" id="8F2AB0CF-22DA-DFAB-2B78-D56F1A2FBF70">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[자재입고창고]]></commentInRDBMS>
+<generatorID>48F5C622-0F26-5AB6-197F-0138161B3F99</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PWAREGB" id="4F0B945C-2D13-69E4-CC82-C669F9F5E9AE">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[생산입고창고]]></commentInRDBMS>
+<generatorID>FFB51BF1-DA09-44BF-78E0-483D2F425748</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SWAREGB" id="C1E52990-0251-35F6-B449-7DB27CFA8E7C">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[제품출고창고]]></commentInRDBMS>
+<generatorID>38A15024-1A37-5C42-D228-1E224591CC1A</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ITUNIT" id="E637BA8D-0857-D30C-6337-7C7BB35653EF">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[기본단위]]></commentInRDBMS>
+<generatorID>B1BD7884-288E-27A6-8ECE-C713D5DE647D</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ITSAFEQTY" id="ABC7D16E-EDB7-3497-873E-0D87EF538245">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[안전재고]]></commentInRDBMS>
+<generatorID>25A4ABAC-C608-2F74-871F-1C05923878A5</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SNP" id="4D68A857-D15C-1EA3-AAD1-3680EA19183A">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[적입량]]></commentInRDBMS>
+<generatorID>4EFFF2F5-78E2-2767-3BA7-5D0E4E8D59FD</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOTMNYN" id="424197D3-170B-BAF0-6393-FBD2EC688E1D">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[LOT 관리여부]]></commentInRDBMS>
+<generatorID>3B99BE64-2053-5786-836A-50E7458AF96C</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOUTDATE" id="4D4F81E8-D579-B35D-5361-72415CC8CDF6">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[Balance Out 일자]]></commentInRDBMS>
+<generatorID>47C01617-D5CC-D96F-EBCF-E4AC65C0B7D8</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CNNGUT" id="CB286862-E5C2-13AC-C43E-D7BA882D794F">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[변환계수]]></commentInRDBMS>
+<generatorID>6E331533-6C57-BB6F-EDF9-BC19DA2A65B7</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="BOMUNIT" id="84170307-C7EF-A227-06E7-ECD4EAEFC438">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[BOM 단위]]></commentInRDBMS>
+<generatorID>4CC9EBAC-C029-B058-B83F-556A32E27EF7</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="STOKYN" id="7F8B2F76-4029-4F5C-9B8E-48F3C1AFDC19">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[재고관리여부]]></commentInRDBMS>
+<generatorID>9E8680DA-7F41-A2AE-6A95-601CC1D3456F</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MAIPSTGB" id="92BACB15-7780-0256-003A-17FB2A51F40D">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[매입기준 (입고기준,물류창고입고기준, 자재출고기준, 생산투입기준,고객실적기준, 납품출고기준)]]></commentInRDBMS>
+<generatorID>D4C07A75-C150-31E1-4C0B-67811F01901B</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SAFERATE" id="592FC9AD-0E41-9337-5119-0570C388DAC8">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[안전재고율(납품계획 생성시 재고 반영%)]]></commentInRDBMS>
+<generatorID>F17DB867-1E27-0664-FBA2-B185574DC186</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SYMD" id="F2DC4B58-B178-02AF-1253-5240AAC06117">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[최초등록일]]></commentInRDBMS>
+<generatorID>5056EF62-6083-46FB-7C05-432CF7A52A57</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EYMD" id="A2E496F1-DB7C-7266-17A0-8959CF481BA1">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[최종종료일]]></commentInRDBMS>
+<generatorID>BC94C9A6-650E-AD27-9676-8276E88F8B7E</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR1" id="6DAE1AE7-C692-2B7F-0143-67B89FB6AD2D">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[추가항목1]]></commentInRDBMS>
+<generatorID>4FC1E99A-A2B5-5B8D-6A91-B3CEF061E065</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR2" id="D1364067-A91F-E136-27A5-FA769A51EA0B">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>17F55C95-F784-6FE5-D6B7-D54B30B518DB</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR3" id="7A16D807-D868-3D8F-2CF6-0C3677411892">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>82936B75-1A26-4DB0-C46A-00D83D04F9E0</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR4" id="75D28D8C-55F5-8367-6574-C9D72815E667">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>5B11865A-8513-B269-755B-4644D197E707</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR5" id="67D2965B-314A-E71F-AD63-628F2ACCA3DD">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>FF9A0F9E-3B8D-94D4-F21D-3563F5015B6F</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR6" id="5C116F9E-CEAF-CD8A-5707-0BDC680ECA0F">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>C9F620CB-5D85-4A6E-2D0A-F36D3DD38B01</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR7" id="0F265C4A-9E2A-EC7C-1F27-2B3ED1BCA83D">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>64CA1E88-0275-7AA5-7006-3324F0AA4A1F</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR8" id="AC52E6BF-7B43-1039-2980-A5524F4D9CE2">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>C96BFB3B-69DC-FC20-1CF4-3DC96833D478</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR9" id="7C639800-6B2A-70DC-A0F5-1604F1527F3B">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>645090A6-5FC2-3FF5-8DD4-13A10B8D4A96</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ATTR10" id="0999E5A5-AEEE-39D6-B8BA-0F76147F2031">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>540B8606-56D4-2610-BF29-409A89189261</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGIN COMP" id="DCEA4606-E360-B37F-B7FB-45FD418C1035">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록사업장]]></commentInRDBMS>
+<generatorID>6671A0F5-97EC-A0BA-E5B3-C8CA73B219DD</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGIN ID" id="4DF89C51-E6EC-A7D1-611A-11D826AF1372">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록자]]></commentInRDBMS>
+<generatorID>9BA910A7-091D-16CA-4D1D-42C2A79F25CA</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LOGIN YMD" id="F382AD62-A7D8-138A-28CB-60C051A7EC55">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[등록시간]]></commentInRDBMS>
+<generatorID>1E82746C-6F2E-7913-A7BC-8B3806B44A6D</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12C01E36-4F99-FF90-2561-C37392B7F9C4" name="MDM0100 PK">
+<createdBy>baeseongho</createdBy>
+<createdTime>2022-11-16 02:13:28 UTC</createdTime>
+<generatorID>F874D6B8-E6DC-FFF8-EE6A-8BA2DB160D50</generatorID>
+<ownerDesignName>KJMDM</ownerDesignName>
+<engineerTo>
+<item key="0AD67E60-7AC5-F711-E399-2F0A5C17F698" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D7D44B75-55A5-9F5D-BF02-C1E878787F27</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
